@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnvironmentBlueprint size="64,32">
+   <!--Name could also come from the file name ("Caves" in this case). Use name="" to overload-->
+   <!--Useful for long names-->
+   
+   <GenerationProcessData generator="CellularAutomata" steps="9~10"/>
+   <!-- could also be steps="5". ~ means an inclusive range -->
+      
+</EnvironmentBlueprint>

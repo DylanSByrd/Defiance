@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBlueprints>
+   <ItemBlueprint name="Steel Panel" type="armor" armor="2" slot="secondaryHand"/>
+   <ItemBlueprint name="Work Boots" type="armor" armor="1" slot="legs"/>
+   <ItemBlueprint name="Riot Helmet" type="armor" armor="1" slot="head"/>
+   <ItemBlueprint name="Kevlar Vest" type="armor" armor="3" slot="chest"/>
+   <ItemBlueprint name="Heavy Leather Gloves" type="armor" armor="2" slot="arms"/>
+</ItemBlueprints>

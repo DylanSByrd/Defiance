@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+   <Legend>
+      <Tile char="#" type="stone"/>
+      <Tile char="." type="air"/>
+   </Legend>
+   <TileData>
+      #####
+      #.###
+      ##.##
+      ###.#
+      #####
+   </TileData>
+</Map>

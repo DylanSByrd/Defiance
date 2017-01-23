@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{d2c0c56d-fac9-44ee-930a-0532b2b874fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{69f243db-783d-41b6-90e2-ebbda0528707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders\Post">
+      <UniqueIdentifier>{bffef4c5-9b04-4159-8206-d77ed7743606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Generators">
+      <UniqueIdentifier>{3d868e43-aa5f-4f27-8ae0-fee171bb05c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Map">
+      <UniqueIdentifier>{71e765e3-fc1a-43f4-accd-46ec51c44d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Environments">
+      <UniqueIdentifier>{ce738966-c0a0-46ec-a4fc-aee64fa77f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Environments">
+      <UniqueIdentifier>{495663e0-e1cd-4da7-9ef6-b2f2111d7a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Maps">
+      <UniqueIdentifier>{d71e2cf1-f48b-4992-8136-4848719bac67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities">
+      <UniqueIdentifier>{10fadb6c-9c57-41e8-b428-115c0871f8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities\Agents">
+      <UniqueIdentifier>{3c6ee9de-71d8-4b09-b8b0-3cedf53bc9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\FieldOfView">
+      <UniqueIdentifier>{6d5dd58c-ece0-43db-980c-77f555a1d958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Pathfinding">
+      <UniqueIdentifier>{ab72e06c-f461-4220-b06f-4e54179515f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\NPCs">
+      <UniqueIdentifier>{5d10b3fa-76d2-45ac-94c1-a37473a6156b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities\Agents\NPCs">
+      <UniqueIdentifier>{19e7185c-9597-480a-aced-abd28899af95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities\Agents\Factions">
+      <UniqueIdentifier>{49cf3412-feb6-42f1-bd9a-5845706600a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Factions">
+      <UniqueIdentifier>{f2f7fa65-5a7a-4aaf-b981-82c185d46015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities\Agents\Behaviors">
+      <UniqueIdentifier>{60db81d5-e666-4741-846b-20dc2a673458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\UI">
+      <UniqueIdentifier>{c1998729-eb5c-45f9-977f-14eacc379c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Combat">
+      <UniqueIdentifier>{8bb4061e-8756-4cc1-a999-fef69e6f34be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities\Items">
+      <UniqueIdentifier>{b8af57c8-1388-4553-ac48-f381ca4f448e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Items">
+      <UniqueIdentifier>{07fdaf35-f3ae-432a-a6e9-edd94d69f581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Entities\Features">
+      <UniqueIdentifier>{4d124fab-00c7-4308-92e5-c00fbc60c3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Features">
+      <UniqueIdentifier>{ffcce5e2-29f9-417f-b65f-6366f9c66937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\App">
+      <UniqueIdentifier>{fc7b480b-fb9f-4ddc-b12f-690585a0e61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Core">
+      <UniqueIdentifier>{aa0593a1-c9ee-470b-8f19-bfc6f2cc2c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Saves">
+      <UniqueIdentifier>{fec00744-0aaf-476f-89c4-41bcf84e25b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\IO">
+      <UniqueIdentifier>{9a5fc117-f11c-4e20-a01c-58fce60c4edd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Generators\Generator.cpp">
+      <Filter>General\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\CellularAutomataGenerator.cpp">
+      <Filter>General\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Map.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Tile.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Environments\EnvironmentBlueprint.cpp">
+      <Filter>General\Environments</Filter>
+    </ClCompile>
+    <ClCompile Include="Environments\EnvironmentGenerationProcess.cpp">
+      <Filter>General\Environments</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\DungeonGenerator.cpp">
+      <Filter>General\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\FromDataGenerator.cpp">
+      <Filter>General\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Generators\RiverGenerator.cpp">
+      <Filter>General\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileDefinition.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Entity.cpp">
+      <Filter>General\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Agent.cpp">
+      <Filter>General\Entities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Player.cpp">
+      <Filter>General\Entities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfView.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfViewBasic.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\Pathfinder.cpp">
+      <Filter>General\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding\PathfinderAStar.cpp">
+      <Filter>General\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\MapProxy.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldOfView\FieldOfViewAdvanced.cpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\NPCs\NPCFactory.cpp">
+      <Filter>General\Entities\Agents\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\NPCs\NPC.cpp">
+      <Filter>General\Entities\Agents\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Factions\Faction.cpp">
+      <Filter>General\Entities\Agents\Factions</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GameMessageBox.cpp">
+      <Filter>General\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PlayerStatusBar.cpp">
+      <Filter>General\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Behaviors\Behavior.cpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Behaviors\WanderBehavior.cpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Behaviors\ChaseBehavior.cpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Combat\DefianceCombatSystem.cpp">
+      <Filter>General\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Behaviors\MeleeAttackBehavior.cpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Behaviors\FleeBehavior.cpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Behaviors\HealAllyBehavior.cpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Items\Item.cpp">
+      <Filter>General\Entities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Items\ItemFactory.cpp">
+      <Filter>General\Entities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Items\Inventory.cpp">
+      <Filter>General\Entities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Features\Feature.cpp">
+      <Filter>General\Entities\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Features\FeatureFactory.cpp">
+      <Filter>General\Entities\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Agents\Behaviors\PickUpItemBehavior.cpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Main_Win32.cpp">
+      <Filter>General\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TheApp.cpp">
+      <Filter>General\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GameCommon.cpp">
+      <Filter>General\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GameContext.cpp">
+      <Filter>General\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\TheGame.cpp">
+      <Filter>General\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\LoadGame.cpp">
+      <Filter>General\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\SaveGame.cpp">
+      <Filter>General\IO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Generators\Generator.hpp">
+      <Filter>General\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Map.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\CellularAutomataGenerator.hpp">
+      <Filter>General\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Tile.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Environments\EnvironmentBlueprint.hpp">
+      <Filter>General\Environments</Filter>
+    </ClInclude>
+    <ClInclude Include="Environments\EnvironmentGenerationProcess.hpp">
+      <Filter>General\Environments</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\DungeonGenerator.hpp">
+      <Filter>General\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\FromDataGenerator.hpp">
+      <Filter>General\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Generators\RiverGenerator.hpp">
+      <Filter>General\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinition.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Entity.hpp">
+      <Filter>General\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Agent.hpp">
+      <Filter>General\Entities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Player.hpp">
+      <Filter>General\Entities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfView.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfViewBasic.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\Pathfinder.hpp">
+      <Filter>General\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding\PathfinderAStar.hpp">
+      <Filter>General\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapProxy.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldOfView\FieldOfViewAdvanced.hpp">
+      <Filter>General\FieldOfView</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\NPCs\NPCFactory.hpp">
+      <Filter>General\Entities\Agents\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\NPCs\NPC.hpp">
+      <Filter>General\Entities\Agents\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Factions\Faction.hpp">
+      <Filter>General\Entities\Agents\Factions</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GameMessageBox.hpp">
+      <Filter>General\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlayerStatusBar.hpp">
+      <Filter>General\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Behaviors\Behavior.hpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Behaviors\WanderBehavior.hpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Behaviors\ChaseBehavior.hpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Combat\DefianceCombatSystem.hpp">
+      <Filter>General\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Behaviors\MeleeAttackBehavior.hpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Behaviors\FleeBehavior.hpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Behaviors\HealAllyBehavior.hpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Items\Item.hpp">
+      <Filter>General\Entities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Items\ItemFactory.hpp">
+      <Filter>General\Entities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Items\Inventory.hpp">
+      <Filter>General\Entities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Features\Feature.hpp">
+      <Filter>General\Entities\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Features\FeatureFactory.hpp">
+      <Filter>General\Entities\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Agents\Behaviors\PickUpItemBehavior.hpp">
+      <Filter>General\Entities\Agents\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TheApp.hpp">
+      <Filter>General\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameCommon.hpp">
+      <Filter>General\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameContext.hpp">
+      <Filter>General\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\TheGame.hpp">
+      <Filter>General\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\LoadGame.hpp">
+      <Filter>General\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\SaveGame.hpp">
+      <Filter>General\IO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Data\Shaders\basicInClassPassthrough.frag">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\basicInClassPassthrough.vert">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\advancedLight.frag">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\advancedLight.vert">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Post\post.vert">
+      <Filter>Resources\Shaders\Post</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Post\postVignette.frag">
+      <Filter>Resources\Shaders\Post</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Post\passthrough.frag">
+      <Filter>Resources\Shaders\Post</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Post\postPixelation.frag">
+      <Filter>Resources\Shaders\Post</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Post\postToon.frag">
+      <Filter>Resources\Shaders\Post</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Post\postShockwave.frag">
+      <Filter>Resources\Shaders\Post</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\Data\Shaders\Post\postMotionBlur.frag">
+      <Filter>Resources\Shaders\Post</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Caves.Environment.xml">
+      <Filter>Resources\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Maps\demo.Map.xml">
+      <Filter>Resources\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Rivers.Environment.xml">
+      <Filter>Resources\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Data.Environment.xml">
+      <Filter>Resources\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\UndergroundRivers.Environment.xml">
+      <Filter>Resources\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Maps\default.Map.xml">
+      <Filter>Resources\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Factions\Global.Faction.xml">
+      <Filter>Resources\Factions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Items\Weapons.Item.xml">
+      <Filter>Resources\Items</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Items\Armor.Item.xml">
+      <Filter>Resources\Items</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Items\Consumables.Item.xml">
+      <Filter>Resources\Items</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Features\Doors.Feature.xml">
+      <Filter>Resources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Environments\Bunker.Environment.xml">
+      <Filter>Resources\Environments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\Saves\SaveGame.Save.xml">
+      <Filter>Resources\Saves</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\Survivors.NPC.xml">
+      <Filter>Resources\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\Monsters.NPC.xml">
+      <Filter>Resources\NPCs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\Data\NPCs\Raiders.npc.xml">
+      <Filter>Resources\NPCs</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

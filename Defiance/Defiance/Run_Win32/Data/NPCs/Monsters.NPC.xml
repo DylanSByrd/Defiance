@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCBlueprints>
+   <NPCBlueprint name="Irradiated Roach" maxHealth="10" glyph="r" faction="Monster" color="255,255,0">
+      <Behaviors>
+         <Wander chanceToRest="0.5" chanceToGoStraight=".3" chanceToRun="1.0"/>
+         <Chase/>
+         <MeleeAttack/>
+         <Flee healthThreshold="5"/>
+         <PickUpItem/>
+      </Behaviors>
+   </NPCBlueprint>
+   <NPCBlueprint name="Giant Ant" maxHealth="7~10" glyph="a" faction="Monster" color="255,128,0">
+      <Behaviors>
+         <Wander chanceToRest="0.5" chanceToGoStraight=".3" chanceToRun="1.0"/>
+         <Chase/>
+         <Flee/>
+         <MeleeAttack/>
+      </Behaviors>
+   </NPCBlueprint>
+   <NPCBlueprint name="Mutant" maxHealth="10~20" glyph="m" faction="Monster" color="255,0,255">
+      <Behaviors>
+         <Wander/>
+         <Chase/>
+         <MeleeAttack damage="5~10" percentChanceToHit="0.6"/>
+      </Behaviors>
+   </NPCBlueprint>
+</NPCBlueprints>

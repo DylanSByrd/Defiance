@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+   <Faction name="Player"/>
+   <Faction name="Raider" dislikes="Player,Survivor" hates="Monster"/>
+   <Faction name="Monster" hates="Player,Survivor,Raider"/>
+   <Faction name="Survivor" likes="Player" dislikes="Raider" hates="Monster"/>
+</Factions>

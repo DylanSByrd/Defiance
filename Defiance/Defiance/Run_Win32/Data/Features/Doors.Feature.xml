@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureBlueprints>
+   <FeatureBlueprint name="Wooden Door" type="door" stateGlyphs="-,+" startingState="closed" doesBlockLineOfSight="false,true" doesBlockPathing="false,true"/>
+   <FeatureBlueprint name="Cell Door" type="door" stateGlyphs="-,=" startingState="closed" doesBlockLineOfSight="false,false" doesBlockPathing="false,true"/>
+</FeatureBlueprints>

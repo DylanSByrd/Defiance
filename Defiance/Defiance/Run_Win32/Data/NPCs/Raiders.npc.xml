@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<NPCBlueprints>
+	<NPCBlueprint name="Raider Thug" faction="Raider" glyph="r" color="255,0,0">
+		<Behaviors>
+			<Wander/>
+			<Chase/>
+			<MeleeAttack/>
+		</Behaviors>
+	</NPCBlueprint>
+
+	<NPCBlueprint name="Raider Psycho" glyph="r" faction="Raider" color="180,0,190">
+		<Behaviors>
+			<Wander/>
+			<Chase/>
+         <MeleeAttack damage="7~10" percentChanceToHit="0.3"/>
+		</Behaviors>
+	</NPCBlueprint>
+</NPCBlueprints>
+
+
+	

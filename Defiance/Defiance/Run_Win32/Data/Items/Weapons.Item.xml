@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBlueprints>
+   <ItemBlueprint name="Broken Knife" type="weapon" damage="1~2" slot="primaryHand"/>
+   <ItemBlueprint name="Rusty Pipe" type="weapon" damage="2~4" slot="primaryHand"/>
+   <ItemBlueprint name="Crowbar" type="weapon" damage="1~3" slot="primaryHand"/>
+   <ItemBlueprint name="Steel Knife" type="weapon" damage="2~6" slot="primaryHand"/>
+   <ItemBlueprint name="Steel Baton" type="weapon" damage="3~5" slot="primaryHand"/>
+</ItemBlueprints>

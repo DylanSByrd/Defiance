@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCBlueprints>
+   <NPCBlueprint name="Survivor Scout" maxHealth="30" glyph="s" faction="Survivor" color="0,255,0">
+      <Behaviors>
+         <Wander chanceToRest="0.5" chanceToGoStraight=".3" chanceToRun="1.0"/>
+         <Chase/>
+         <MeleeAttack/>
+         <PickUpItem/>
+      </Behaviors>
+   </NPCBlueprint>
+   <NPCBlueprint name="Survivor Medic" maxHealth="5~10" glyph="s" faction="Survivor" color="255, 255, 255">
+      <Behaviors>
+         <Wander/>
+         <MeleeAttack/>
+         <HealAlly healingPower="3~8" percentChanceToHit="0.60"/>
+      </Behaviors>
+   </NPCBlueprint>
+</NPCBlueprints>

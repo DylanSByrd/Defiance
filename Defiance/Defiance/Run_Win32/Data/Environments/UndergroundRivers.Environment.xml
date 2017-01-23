@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnvironmentBlueprint size="64,32">
+   <GenerationProcessData generator="CellularAutomata" steps="5~8"/>
+   <GenerationProcessData generator="River" steps="2~4"/>
+</EnvironmentBlueprint>
