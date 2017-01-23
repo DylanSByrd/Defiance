@@ -1,7 +1,5 @@
 # Defiance
-2D Roguelike written in C++
-
-Defiance - A Simple 2D Roguelike, Minus Some Features - Made by Dylan Byrd - dsbyrd@smu.edu
+A Simple 2D Roguelike, Minus Some Features - Made by Dylan S. Byrd - mail@dylansbyrd.com
 
 About
 
