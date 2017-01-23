@@ -4,7 +4,9 @@
 Defiance - A Simple 2D Roguelike, Minus Some Features - Made by Dylan Byrd - dsbyrd@smu.edu
 
 About
+
 //-----------------------------------------------------------------------------------------------
+
 You wake up, unsure of where you are.
 You remember the end of the world, and the life after.
 Look for other survivors. Avoid monsters and bandits.
@@ -12,7 +14,9 @@ Good Luck.
 
 
 Known Issues
+
 //-----------------------------------------------------------------------------------------------
+
 - Although the environment files may have a range of steps, the number in that range is calculated
   on startup, meaning the number of steps used in generation will always be the same.
 - The GenerationProcesses currently only influence the number of generation steps to take, except
@@ -23,7 +27,9 @@ Known Issues
 
 
 How to Use
+
 //-----------------------------------------------------------------------------------------------
+
 During play, press the spacebar or Numpad5 to skip a turn
 During play, movement is either hjklyubn or the numpad;
 During play, press P to simulate an A* pathfinding step.
@@ -42,6 +48,8 @@ Repeat for the Engine project if necessary.
 
 
 How to Test Features
+
 //-----------------------------------------------------------------------------------------------
+
 - I suggest using the Dungeon Generator to see doors
 - Shots of Adrenaline double the player's speed
